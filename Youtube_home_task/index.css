@@ -1,0 +1,61 @@
+body{
+    background-color:  #000000de;
+}
+.logo {
+    width: 80px;
+    height: 55px;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    margin-top: 10px;
+  }
+  
+  form.example input[type=text] {
+    padding: 4px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 150px;
+    background: #0a0101fc;
+    display: inline;
+    margin-top: 20px;
+    margin-left: 300px;
+    color: #f7f4f4b3;
+  }
+  
+  form.example button {
+    float: left;
+    width: 4%;
+    padding: 4px;
+    background: #0000002d;
+    color: rgb(251, 246, 246);
+    font-size: 17px;
+    border: 1px solid rgba(12, 1, 1, 0.79);
+    border-left: none;
+    cursor: pointer;
+    display: inline;
+    margin-top: 20px;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .hor_display{
+    display: flex;
+  }
+
+  .center {
+    padding:10%;
+    text-align: center;
+    }
+  .a{
+    margin: 5%;
+    display: inline;
+    color: aquamarine;
+  }
+
+  
