@@ -1,1 +1,79 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="main.css">
+    <script type = "text/javascript" src="index.js"></script>
+    <script type = "text/javascript" src="variables.js"></script>
+</head>
+<body onLoad="date(); paragraph(); f()">
+    
+    <div class="header">
+        <img src="./images/news.png" alt="Chanell Logo" class="logo">
+    </div>
+    
+    <div class="row1">
+        <div class="r1col1">
+            <form action="/action_page.php">
+                <label>SELECT CATEGORY:</label>
+                <select id="select" onchange="tagchange()">
+                    <option value="All" href="#general" id="general"></option>
+                    <option value="Sports" href="#sports" id="sport"></option>
+                    <option value="Business" href="#business" id="business"></option>
+                    <option value="Technology" href="#technology" id="technology"></option>
+                    <option value="Entertainment" href="#entertainment" id="entertainment"></option>
+                </select>
+            </form>
+        </div>
+        <div class="r1col2">
+            <h2 id="tag">All News</h2>
+            
+        </div>
+    </div>
+    
+    <!-- for news -->
+    <div class="news_row" >
+        <div class="fig news_row">
+            <img src="./images/pollution.png" alt="Chanell Logo" class="fig">
+        </div>
+        <div class="col2">
+            <h3 class="heading">Title One</h3>
+            <p class="time" id="date1"></p>
+            <p class="para" id="para1"></p>
+            <button class="but">Continue Reading</button>
+       
+        </div>
+    </div>
+    <div class="news_row2" >
+        <div class="fig news_row">
+            <img src="./images/pollution.png" alt="Chanell Logo" class="fig">
+        </div>
+        <div class="col2">
+            <h3 class="heading">Title Two</h3>
+            <p class="time" id="date2"></p>
+            <p class="para" id="para2"></p>
+            <button class="but">Continue Reading</button>
+       
+        </div>
+    </div>
+    <div class="news_row2" >
+        <div class="fig news_row">
+            <img src="./images/pollution.png" alt="Chanell Logo" class="fig">
+        </div>
+        <div class="col2">
+            <h3 class="heading">Title Three</h3>
+            <p class="time" id="date3"></p>
+            <p class="para" id="para3"></p>
+            <button class="but">Continue Reading</button>
+       
+        </div>
+    </div>
+    <div class="footer">
+            <p>@ NewsFeed 2022</p>
+    </div>
+</body>
+</html>
