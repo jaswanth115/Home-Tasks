@@ -24,7 +24,7 @@ for (var i=1;i<=n;i++){
     a=prompt("enter "+i+" th number  : ");
     l.push(a);
 }
-console.log(l);
+
 if (symbol==="+"){
     var result=0;
     for (var j=0;j<n;j++){
