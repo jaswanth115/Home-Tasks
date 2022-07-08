@@ -1,0 +1,48 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+
+.card{
+  padding: 10px;
+  margin: 20px ;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 white;
+}
+
+.card_info{
+  color: white;
+  padding: 2px 16px;
+}
+
+.cards{
+  margin-left: 40px;
+  display: inline-block;
+  padding: auto;
+}
+
+h1{
+  padding: 10px;
+  color:white;
+  text-align: center;
+   margin-top: 0px;
+  font-family: 'Tiro Bangla', serif;
+}
+button{
+  cursor: pointer;
+}
+
