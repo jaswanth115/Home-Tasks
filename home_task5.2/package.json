@@ -1,0 +1,20 @@
+{
+  "name": "ht_5.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "numbers": "^0.7.0",
+    "numeric": "^1.2.6",
+    "prompt": "^1.3.0",
+    "prompt-sync": "^4.2.0",
+    "save": "^2.5.0"
+  }
+}
