@@ -1,0 +1,11 @@
+.navbarr {
+  margin-left: 120ex;
+  display: inline-flex;
+}
+a:active {
+  color: black;
+}
+hr {
+  width: 160ex;
+  margin-left: 80px;
+}

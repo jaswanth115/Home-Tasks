@@ -1,0 +1,11 @@
+<div class="container" *ngFor="let user of users">
+    <div class="content" *ngIf="user.isDeleted==true && router.url==='/active'">
+        <h3 id="text">{{user.id}}</h3>
+        <button class="deactive">Deactivate</button>
+    </div>
+    <div class="contentdelete" *ngIf="user.isDeleted==false && router.url==='/delete'">
+        <h3 id="text">{{user.id}}</h3>
+        <button class="deactive">Activate</button>
+    </div>
+    <br>
+</div>
