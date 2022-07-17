@@ -1,0 +1,15 @@
+<div class="container" *ngFor="let userlist of userslist">
+    <div class="content" *ngIf="userlist.isDeleted==true">
+        <h3 id="text">{{userlist.id}}</h3>
+        <button class="detail" (click)="navigateroute(userlist.id)">Details</button>
+    </div>
+    <div class="contentdelete" *ngIf="userlist.isDeleted==false">
+        <h3 id="text">{{userlist.id}}</h3>
+        <button class="detail" (click)="navigateroute(userlist.id)">Details</button>
+
+    </div>
+    <br>
+</div>
+<div class="col-sm-8">
+    <router-outlet></router-outlet>
+</div>

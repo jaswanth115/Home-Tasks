@@ -1,0 +1,18 @@
+.content {
+  width: 150ex;
+  height: 100px;
+  border: 1px solid lightgreen;
+}
+#text {
+  margin-left: 20px;
+}
+.deactive {
+  background-color: red;
+  margin-left: 120ex;
+  color: white;
+}
+.contentdelete {
+  width: 150ex;
+  height: 100px;
+  border: 1px solid orangered;
+}
