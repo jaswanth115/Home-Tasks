@@ -1,0 +1,188 @@
+
+.s1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: -1cm;
+    margin-top: 1cm;
+  }
+  
+  ul li {
+    list-style: none;
+    margin: 1rem;
+  }
+  
+  .card-main {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 170px;
+    height: 140px;
+    border: 0.1cm solid rgb(173, 147, 99);
+    padding: 0px 0px;
+    margin: 0;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .card-inner {
+    padding-top: 1rem;
+  }
+  
+  .card-main:hover {
+    box-shadow: 0 18px 26px 0 rgba(13, 223, 255, 0.2);
+    font-style: italic;
+    transform: scale(1.28);
+  }
+  
+  .sp1 {
+    font-size: xx-small;
+  }
+  
+  .card1 {
+    background-color: orange;
+  }
+  
+  .card2 {
+    background-color: green;
+  }
+  
+  .card3 {
+    background-color: purple;
+  }
+  
+  .card4 {
+    background-color: skyblue;
+  }
+  
+  .card5 {
+    background-color: brown;
+  }
+  
+  .card6 {
+    background-color: aquamarine;
+  }
+  
+  .head1 {
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-stretch: extra-expanded;
+    font-display: fallback;
+  }
+  
+  .head2 {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .card-2-main{
+    border: 5px solid black;
+    width: fit-content;
+    margin: auto;
+    height: 430px;
+  }
+  .card-2{
+    position: relative;
+ 
+  }
+  .card-2-butt{
+    position: absolute;
+    top:25rem;
+    left:45.7rem;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  .card-2-head{
+    padding: 10px 20px;
+  }
+  .card-2-body{
+    border: 1px solid white;
+    width: 150px;
+    
+    height: 150px;
+    text-align: center;
+   font-size: 11px;
+    margin-left: 15%;
+  }
+  .my_ig1{
+    width: 300px;
+    height: 230px;
+  }
+
+  .my_ig2{
+    width: 300px;
+    height: 230px;
+  }
+
+  .my_ig3{
+    position: absolute;
+    width: 180px;
+    height: 120px;
+    top: 17rem;
+    left:43rem; ;
+  }
+
+  .my_ig4{
+    width: 240px;
+    height: 220px;
+  }
+
+  .my_ig5{
+    width: 240px;
+    height: 220px;
+  }
+
+  .my_ig6{
+    width: 240px;
+    height: 220px;
+  }
+
+  .my_ig7{
+    width: 240px;
+    height: 220px;
+  }
+
+  .mycard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .head3{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1.5cm;
+    color: rgb(244, 35, 35);
+  }
+
+  .card-3-body{
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .card-3-main:hover{
+    box-shadow: 5px 18px 26px 0 rgba(79, 15, 206, 0.2);
+    font-style: italic;
+  }
+
+  .my_logo{
+    width: 110px;
+    height:75px;
+    position: absolute;
+    left: 19.5rem;
+    top: 2px;
+  }
+
+  .main{
+    position: relative;
+  }
